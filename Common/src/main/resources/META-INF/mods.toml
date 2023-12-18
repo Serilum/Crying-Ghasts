@@ -1,14 +1,14 @@
 modLoader="javafml"
 loaderVersion="*"
 license="All rights reserved"
-issueTrackerURL="https://github.com/ricksouth/serilum-mc-mods/labels/Mod:%20Crying%20Ghasts"
+issueTrackerURL="https://github.com/Serilum/.issue-tracker/labels/Mod:%20Crying%20Ghasts"
 logoFile="icon.png"
 
 [[mods]]
 modId="cryingghasts"
-version="3.2"
+version="3.3"
 displayName="Crying Ghasts"
-displayURL="https://curseforge.com/minecraft/mc-mods/crying-ghasts"
+displayURL="https://serilum.com/mod/crying-ghasts"
 authors="Rick South"
 description='''Ghasts drop their tears periodically when a player is close, giving the ability to farm them sustainably.
 '''
@@ -21,13 +21,15 @@ If you would like to contribute too, check out https://ricksouth.com/donate. App
 
 [[dependencies.cryingghasts]]
     modId="collective"
+    type="required"
     mandatory=true
-    versionRange="[7.3,)"
+    versionRange="[7.21,)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.cryingghasts]]
     modId="minecraft"
+    type="required"
     mandatory=true
     versionRange="[1.20.1]"
     ordering="NONE"
