@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "cryingghasts",
+  "version": "3.3",
+
+  "name": "Crying Ghasts",
+  "description": "Ghasts drop their tears periodically when a player is close, giving the ability to farm them sustainably.",
+  "authors": [ "Rick South" ],
+  "contact": {
+    "homepage": "https://serilum.com/mod/crying-ghasts",
+    "sources": "https://github.com/Serilum/Crying-Ghasts",
+    "issues": "https://github.com/Serilum/.issue-tracker/labels/Mod:%20Crying%20Ghasts"
+  },
+
+  "license": "All Right Reserved",
+  "icon": "icon.png",
+
+  "environment": "*",
+  "entrypoints": { "main": [ "com.natamus.cryingghasts.ModFabric" ], "modmenu": [ "com.natamus.cryingghasts.fabric.config.IntegrateModMenu" ] },
+
+  "depends": {
+    "fabricloader": ">=0.12.5",
+    "fabric": "*",
+    "minecraft": ">=1.20",
+    "java": ">=17",
+    "collective": ">=7.53"
+  },
+
+  "custom": {
+    "modmenu": {
+      "links": {
+        "Donate <3" : "https://ricksouth.com/donate"
+      }
+    }
+  },
+
+  "contributors": [
+	  " ",
+	  "Thank you very much to my Membership sponsors for supporting the development of this mod!",
+	  " ",
+	  "If you would like to contribute too, check out https://serilum.com/donate.",
+	  " ",
+	  "Membership sponsors:",
+	  " Alister",
+	  " Andrean Olgo",
+	  " aternosorg",
+	  " BirdieMiner",
+	  " Cherriesaurus",
+	  " Jack",
+	  " Jeremy Langford",
+	  " Michael W. S.",
+	  " pepe1191",
+	  " Shana Gitnick",
+	  " Tyler Behl"
+  ]
+}
