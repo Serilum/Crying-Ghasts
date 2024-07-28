@@ -1,9 +1,8 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.natamus.cryingghasts.forge.mixin",
+  "package": "com.natamus.cryingghasts.mixin",
   "compatibilityLevel": "JAVA_17",
-  "refmap": "cryingghasts_forge.refmap.json",
   "mixins": [
 
   ],
