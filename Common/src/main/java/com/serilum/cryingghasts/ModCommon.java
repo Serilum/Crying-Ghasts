@@ -1,6 +1,6 @@
-package com.natamus.cryingghasts;
+package com.serilum.cryingghasts;
 
-import com.natamus.cryingghasts.config.ConfigHandler;
+import com.serilum.cryingghasts.config.ConfigHandler;
 
 public class ModCommon {
 
