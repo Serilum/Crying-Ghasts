@@ -1,10 +1,10 @@
-package com.natamus.cryingghasts;
+package com.serilum.cryingghasts;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.cryingghasts.forge.config.IntegrateForgeConfig;
-import com.natamus.cryingghasts.forge.events.ForgeGhastEvent;
-import com.natamus.cryingghasts.util.Reference;
+import com.serilum.cryingghasts.forge.config.IntegrateForgeConfig;
+import com.serilum.cryingghasts.forge.events.ForgeGhastEvent;
+import com.serilum.cryingghasts.util.Reference;
 import net.minecraftforge.eventbus.api.bus.BusGroup;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLLoadCompleteEvent;
@@ -30,7 +30,7 @@ public class ModForge {
 	}
 
 	private void loadComplete(final FMLLoadCompleteEvent event) {
-    	ForgeGhastEvent.registerEventsInBus();
+		ForgeGhastEvent.registerEventsInBus();
 	}
 
 	private static void setGlobalConstants() {

@@ -1,10 +1,10 @@
-package com.natamus.cryingghasts;
+package com.serilum.cryingghasts;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
 import com.natamus.collective.fabric.callbacks.CollectivePlayerEvents;
-import com.natamus.cryingghasts.events.GhastEvent;
-import com.natamus.cryingghasts.util.Reference;
+import com.serilum.cryingghasts.events.GhastEvent;
+import com.serilum.cryingghasts.util.Reference;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
