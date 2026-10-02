@@ -1,7 +1,7 @@
-package com.natamus.cryingghasts.config;
+package com.serilum.cryingghasts.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.cryingghasts.util.Reference;
+import com.serilum.cryingghasts.util.Reference;
 
 import java.util.Arrays;
 import java.util.HashMap;
