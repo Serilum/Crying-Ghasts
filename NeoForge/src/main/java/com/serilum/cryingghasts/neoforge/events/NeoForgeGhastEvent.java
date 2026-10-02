@@ -1,6 +1,6 @@
-package com.natamus.cryingghasts.neoforge.events;
+package com.serilum.cryingghasts.neoforge.events;
 
-import com.natamus.cryingghasts.events.GhastEvent;
+import com.serilum.cryingghasts.events.GhastEvent;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.entity.player.Player;
