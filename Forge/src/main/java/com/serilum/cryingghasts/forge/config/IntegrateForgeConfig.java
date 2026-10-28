@@ -1,7 +1,7 @@
-package com.natamus.cryingghasts.forge.config;
+package com.serilum.cryingghasts.forge.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.cryingghasts.util.Reference;
+import com.serilum.cryingghasts.util.Reference;
 import net.minecraftforge.client.ConfigScreenHandler;
 import net.minecraftforge.fml.ModLoadingContext;
 

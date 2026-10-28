@@ -1,6 +1,6 @@
-package com.natamus.cryingghasts.events;
+package com.serilum.cryingghasts.events;
 
-import com.natamus.cryingghasts.config.ConfigHandler;
+import com.serilum.cryingghasts.config.ConfigHandler;
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
